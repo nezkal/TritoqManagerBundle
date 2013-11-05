@@ -16,6 +16,8 @@ Bundle para gerenciamento de boletos usando o OpenBoleto
 
 ```
 
+`php composer.phar update`
+
 ## Configuração
 
 
@@ -132,4 +134,4 @@ Bundle para gerenciamento de boletos usando o OpenBoleto
 
 
 ```
-Para acessar o boleto a rota padrão é: /boleto/{id} - onde id é o hash gerado para o boleto
+Para acessar o boleto a rota padrão é: [/boleto/{id}] - onde id é o hash gerado para o boleto

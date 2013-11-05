@@ -1,0 +1,22 @@
+{
+    "name": "tritoq/managerboleto-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle de Symfony para gerenciamento de boletos através do OpenBoleto",
+    "keywords": ["boleto", "manager", "openboleto", "banco"],
+    "homepage": "https://github.com/nezkal/TritoqManagerBundle",
+    "license": "MIT",
+    "authors": [
+        { "name": "Artur T Magalhães", "email": "nezkal@gmail.com" }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.0",
+        "kriansa/openboleto": "dev-master",
+        "doctrine/orm": "~2.2",
+        "doctrine/doctrine-bundle": "~1.1"
+    },
+    "autoload": {
+        "psr-0": { "Tritoq\\Bundle\\ManagerBoletoBundle": "" }
+    },
+    "target-dir": "Tritoq/Bundle/ManagerBoletoBundle"
+}
