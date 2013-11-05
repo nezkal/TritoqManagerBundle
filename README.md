@@ -6,7 +6,7 @@ Bundle para gerenciamento de boletos usando o OpenBoleto
 ## Instalação
 
 
-** Via Composer ***
+**Via Composer**
 
 ```json
 
@@ -23,7 +23,7 @@ php composer.phar update
 ## Configuração
 
 
-*** Registrando o bundle no `AppKernel.php` ***
+**Registrando o bundle no `AppKernel.php`**
 
 
 ```php
@@ -37,7 +37,7 @@ php composer.phar update
 ```
 `app/config/config.yml`
 
-*** Registrando o Bundle no Doctrine ***
+**Registrando o Bundle no Doctrine**
 
  ```yaml
 
@@ -50,7 +50,7 @@ php composer.phar update
 
  ```
 
-*** Setando as configuraçoes ***
+**Setando as configuraçoes**
 
 ```yaml
 
@@ -100,7 +100,7 @@ php composer.phar update
 
 ```
 
-*** Atualizando o Banco de dados ***
+**Atualizando o Banco de dados**
 `app/console doctrine:schema:update --force`
 
 ## Usando o serviço
@@ -138,4 +138,4 @@ php composer.phar update
 ```
 
 ** Nota **
-Para acessar o boleto a rota padrão é: `/boleto/{id}` - onde id é o hash gerado para o boleto
+> Para acessar o boleto a rota padrão é: `/boleto/{id}` - onde id é o hash gerado para o boleto
