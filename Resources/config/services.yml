@@ -1,0 +1,6 @@
+services:
+    tritoq.manager.boleto:
+        class: Tritoq\Bundle\ManagerBoletoBundle\Service\BoletoManager
+        calls:
+            - [setConfigurations, [ %tritoq.manager.boleto.configurations% ]]
+            - [setEntityManager, [ @doctrine.orm.entity_manager ]]

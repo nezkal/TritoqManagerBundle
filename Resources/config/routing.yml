@@ -1,0 +1,3 @@
+tritoq_manager_boleto:
+    resource: "@TritoqManagerBoletoBundle/Controller/"
+    type: annotation
