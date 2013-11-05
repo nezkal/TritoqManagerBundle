@@ -1,4 +1,4 @@
-tritoq-bundle-ManagerBoletoBundle
+Tritoq\Bundle\ManagerBoletoBundle
 ==================================
 
 Bundle para gerenciamento de boletos usando o OpenBoleto
