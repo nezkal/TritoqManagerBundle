@@ -36,10 +36,7 @@ class TritoqManagerBoletoExtension extends Extension
             'cidade' => $config['cidade'],
             'uf' => $config['uf'],
             'cnpj' => $config['cnpj'],
-            'cedente' => $config['cedente'],
-            'identificacao' => $config['identificacao'],
-            'demonstrativo' => $config['demonstrativo'],
-            'instrucoes' => $config['instrucoes']
+            'cedente' => $config['cedente']
         );
 
         $container->setParameter('tritoq.manager.boleto.configurations', $data);

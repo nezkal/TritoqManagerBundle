@@ -42,14 +42,7 @@ class Configuration implements ConfigurationInterface
             ->scalarNode('cnpj')
             ->end()
             ->scalarNode("uf")
-            ->end()
-            ->scalarNode("cedente")
-            ->end()
-            ->scalarNode("identificacao")
             ->end();
-
-        $rootNode->children()->arrayNode("demonstrativo")->addDefaultChildrenIfNoneSet()->prototype("scalar");
-        $rootNode->children()->arrayNode("instrucoes")->addDefaultChildrenIfNoneSet()->prototype("scalar");;
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
