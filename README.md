@@ -18,7 +18,7 @@ Bundle para gerenciamento de boletos usando o OpenBoleto
 
 ```bash
 php composer.phar update
-``
+```
 
 ## Configuração
 
