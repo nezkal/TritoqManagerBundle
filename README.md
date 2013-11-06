@@ -76,8 +76,8 @@ php composer.phar update
         #
         # Dados da conta
         #
-        conta: 1203910139
-        agencia: 203923-5
+        conta: 12039101
+        agencia: 2039
         carteira: 18
         convenio: 1234
         #
