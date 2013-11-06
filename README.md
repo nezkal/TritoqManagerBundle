@@ -11,6 +11,7 @@ Bundle para gerenciamento de boletos usando o OpenBoleto
 ```json
 
 "require" : {
+        "kriansa/openboleto": "dev-master",
         "tritoq/managerboleto-bundle": "dev-master"
 }
 
