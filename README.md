@@ -78,7 +78,8 @@ php composer.phar update
         #
         conta: 1203910139
         agencia: 203923-5
-        carteira: 06
+        carteira: 18
+        convenio: 1234
         #
         # Dados da Empresa Cedente
         #
