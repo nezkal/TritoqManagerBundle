@@ -8,6 +8,7 @@
     "authors": [
         { "name": "Artur T Magalhães", "email": "nezkal@gmail.com" }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.0"
