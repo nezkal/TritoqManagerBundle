@@ -193,7 +193,10 @@ class BoletoManager
 
             $this->data[$boleto_entity->getHash()] = $boleto_obj;
 
-            return $boleto_obj;
+            return array(
+                'obj' => $boleto_obj,
+                'entity' => $boleto_entity
+            );
         } else {
             throw new InvalidArgumentException('Invalid parameters, need: ' . implode(',', $requires));
         }
