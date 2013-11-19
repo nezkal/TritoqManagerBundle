@@ -114,7 +114,7 @@ php composer.phar update
 
         /** @var BoletoManager $boleto */
         $boleto = $this->container->get('tritoq.manager.boleto');
-        $boleto->add(array(
+        $data = $boleto->add(array(
                 'value' => 54.5,
                 'payer' => 'Artur Magalhaes',
                 'payer_doc' => '123.456.789-01',
@@ -122,6 +122,9 @@ php composer.phar update
                 'sequence' => '11'  // Sequencial do boleto para nosso numero
             )
         );
+
+        $data['obj'] // Objeto do Open Boleto
+        $data['entity'] //Entidade do Doctrine Criada
 ```
 
 
