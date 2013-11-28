@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad1c5af9-ce48-4a4d-a958-472ce2008323" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entity/Boleto.php" afterPath="$PROJECT_DIR$/Entity/Boleto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Service/BoletoManager.php" afterPath="$PROJECT_DIR$/Service/BoletoManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ManagerBoleto.iws" />
@@ -35,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boleto.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Boleto.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.6871379" vertical-offset="2047" max-vertical-offset="3945">
+            <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-42.208332" vertical-offset="1627" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoletoManager.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BoletoManager.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Service/BoletoManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="46" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="3135">
+            <state line="183" column="0" selection-start="5259" selection-end="5259" vertical-scroll-proportion="0.6750823" vertical-offset="2040" max-vertical-offset="3120">
               <folding />
             </state>
           </provider>
@@ -119,9 +119,9 @@
         <option value="$PROJECT_DIR$/DependencyInjection/TritoqManagerBoletoExtension.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/Service/BoletoManager.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Entity/Boleto.php" />
+        <option value="$PROJECT_DIR$/Service/BoletoManager.php" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
     <option name="x" value="1920" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1010" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -158,6 +158,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,7 +235,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,8 +242,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -376,30 +376,34 @@
       <created>1385643861959</created>
       <updated>1385643861959</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update Entity Boleto">
+      <created>1385665244645</created>
+      <updated>1385665244645</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="22" width="1920" height="1010" extended-state="6" />
+    <frame x="1920" y="22" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -514,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Service/BoletoManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="46" selection-start="4303" selection-end="4303" vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="3135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="126" column="46" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0" vertical-offset="1183" max-vertical-offset="2265">
@@ -530,7 +527,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.6871379" vertical-offset="2047" max-vertical-offset="3945">
+        <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-42.208332" vertical-offset="1627" max-vertical-offset="3945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Service/BoletoManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="5259" selection-end="5259" vertical-scroll-proportion="0.6750823" vertical-offset="2040" max-vertical-offset="3120">
           <folding />
         </state>
       </provider>

@@ -176,7 +176,12 @@ class BoletoManager
             $value = $parameters['value'];
             $boleto_obj = $this->createBoleto($parameters);
 
-            $boleto_entity = new Boleto();
+            if (isset($parameters['entity']) and $parameters['entity'] instanceof Boleto) {
+                $boleto_entity = $parameters['entity'];
+            } else {
+                $boleto_entity = new Boleto();
+            }
+
             $boleto_entity->setValue($value);
 
             $boleto_entity->setSacado(array(
