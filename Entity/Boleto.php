@@ -74,6 +74,13 @@ class Boleto
 
 
     /**
+     * @ORM\Column(type="integer", options={"default"=1})
+     * @var integer
+     */
+    private $status;
+
+
+    /**
      *
      */
     public function __construct()
@@ -82,6 +89,24 @@ class Boleto
         $this->date_created = new \DateTime('now');
         $this->date_updated = new \DateTime('now');
     }
+
+    /**
+     * @param int $status
+     */
+    public function setStatus($status)
+    {
+        $this->status = $status;
+    }
+
+    /**
+     * @return int
+     */
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+
 
     /**
      * @param string $sacado
