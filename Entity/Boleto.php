@@ -9,6 +9,10 @@ use Doctrine\ORM\Mapping as ORM;
  *
  * @ORM\Table(name="tritoq_manager_boletos")
  * @ORM\Entity(repositoryClass="Tritoq\Bundle\ManagerBoletoBundle\Entity\BoletoRepository")
+ *
+ * @ORM\InheritanceType("JOINED")
+ * @ORM\DiscriminatorColumn(name="type", type="string")
+ * @ORM\DiscriminatorMap({})
  */
 class Boleto
 {
