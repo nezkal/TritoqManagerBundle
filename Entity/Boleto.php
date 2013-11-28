@@ -111,7 +111,6 @@ class Boleto
     }
 
 
-
     /**
      * @param string $sacado
      */
@@ -143,9 +142,6 @@ class Boleto
     {
         return $this->sequencial;
     }
-
-
-
 
     /**
      * @param \DateTime $date_validate
@@ -259,6 +255,4 @@ class Boleto
     {
         return $this->value;
     }
-
-
 }

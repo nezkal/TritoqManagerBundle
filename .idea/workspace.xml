@@ -38,7 +38,7 @@
       <file leaf-file-name="Boleto.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="369" selection-end="369" vertical-scroll-proportion="0.23051591" vertical-offset="0" max-vertical-offset="4035">
+            <state line="256" column="5" selection-start="4235" selection-end="4235" vertical-scroll-proportion="4.215148" vertical-offset="0" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
@@ -368,7 +368,11 @@
       <created>1385643773246</created>
       <updated>1385643773246</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update Entity Boleto">
+      <created>1385643828153</created>
+      <updated>1385643828153</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +411,8 @@
     <MESSAGE value="Update Readme.md" />
     <MESSAGE value="Adição de retorno de um array no método add do manager" />
     <MESSAGE value="Update README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README" />
+    <MESSAGE value="Update Entity Boleto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Entity Boleto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="369" selection-end="369" vertical-scroll-proportion="0.23051591" vertical-offset="0" max-vertical-offset="4035">
+        <state line="256" column="5" selection-start="4235" selection-end="4235" vertical-scroll-proportion="4.215148" vertical-offset="0" max-vertical-offset="3945">
           <folding />
         </state>
       </provider>
