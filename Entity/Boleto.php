@@ -92,6 +92,7 @@ class Boleto
         $this->hash = md5(time());
         $this->date_created = new \DateTime('now');
         $this->date_updated = new \DateTime('now');
+        $this->status = 1;
     }
 
     /**
