@@ -163,7 +163,7 @@ class Boleto
     /**
      * @param \DateTime $date_created
      */
-    public function setDateCreated($date_created)
+    public function setDateCreated(\DateTime $date_created)
     {
         $this->date_created = $date_created;
     }
@@ -179,7 +179,7 @@ class Boleto
     /**
      * @param \DateTime $date_updated
      */
-    public function setDateUpdated($date_updated)
+    public function setDateUpdated(\DateTime $date_updated)
     {
         $this->date_updated = $date_updated;
     }

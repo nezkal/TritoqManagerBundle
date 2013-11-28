@@ -38,7 +38,7 @@
       <file leaf-file-name="Boleto.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="5" selection-start="4235" selection-end="4235" vertical-scroll-proportion="4.215148" vertical-offset="0" max-vertical-offset="3945">
+            <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.6871379" vertical-offset="2047" max-vertical-offset="3945">
               <folding />
             </state>
           </provider>
@@ -130,7 +130,7 @@
     <option name="x" value="1920" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="1058" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -372,11 +372,15 @@
       <created>1385643828153</created>
       <updated>1385643828153</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update Entity Boleto">
+      <created>1385643861959</created>
+      <updated>1385643861959</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="22" width="1920" height="1058" extended-state="6" />
+    <frame x="1920" y="22" width="1920" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -526,7 +530,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entity/Boleto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="5" selection-start="4235" selection-end="4235" vertical-scroll-proportion="4.215148" vertical-offset="0" max-vertical-offset="3945">
+        <state line="176" column="5" selection-start="3003" selection-end="3003" vertical-scroll-proportion="0.6871379" vertical-offset="2047" max-vertical-offset="3945">
           <folding />
         </state>
       </provider>
