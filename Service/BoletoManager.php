@@ -83,7 +83,7 @@ class BoletoManager
 
         $bankNumber = array_keys($this->_map, $keymap);
 
-        return BoletoFactory::loadByBankId($bankNumber, $params);
+        return BoletoFactory::loadByBankId($bankNumber[0], $params);
     }
 
     /**
