@@ -80,7 +80,10 @@ class BoletoManager
         if (!in_array($keymap, $this->_map))
             throw new InvalidArgumentException('Invalid keymap for Bank (' . $keymap . ')');
 
-        return BoletoFactory::loadByBankId(array_keys($this->_map, $keymap), $params);
+
+        $bankNumber = array_keys($this->_map, $keymap);
+
+        return BoletoFactory::loadByBankId($bankNumber, $params);
     }
 
     /**
